@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+    margin: 0px 10px ;
+}
+
+header{
+    padding: 20px;
+}
+
+#login {
+    margin-left: 920px;
+}
+
+.login:hover,
+.logo:hover,
+.contact:hover,
+.team:hover,
+.about:hover {
+    background-color: gray;
+}
+
+#sec1 {
+    background-image: url(Untitled.png);
+    min-height: 100vh;
+}
+
+.p {
+    font-size: 64px;
+    padding: 20px;
+    color: white;
+    padding: 48px;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    top: 70px;
+}
+
+.pp{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#TEAM,#CONTACT{
+    height: 500px;
+    font-size: 20px;
+}
+
+#ABOUT{
+    min-height: 100vh;
+    font-size: 20px;
+}
+
+#TEAM{
+    color: red;
+    background-color: #0ddbdb;
+    height: 500px;
+    
+}
+
+footer{
+    height: 16em;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+#href{
+    font-size: 60px;
+    color: white;
+}
